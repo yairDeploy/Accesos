@@ -15,3 +15,6 @@ class TestCatalogo(TestCase):
 
     def test_view_false(self):
         self.assertFalse(Vehiculos.altavehiculos(False))
+
+    def test_view_true_2(self):
+        self.assertTrue(Vehiculos.altavehiculos(True))
