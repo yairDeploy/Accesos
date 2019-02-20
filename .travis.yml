@@ -14,9 +14,6 @@ before_script:
   - echo "Antes de ejecutar un script"
 
 script:
-  - ls
-  - cd Accesos
-  - ls
   - python manage.py test
   - flake8 --exclude=*migrations*,*settings* .
   - coverage run --source='.' --omit=*test*,*migrations*,*__init*,*settings*,*apps*,*wsgi* manage.py test
