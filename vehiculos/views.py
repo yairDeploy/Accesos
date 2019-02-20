@@ -6,9 +6,9 @@
 
 class Vehiculos:
 
-    def altavehiculos():
+    def altavehiculos(parametro):
 
-        if 1 == True:
-            print("hola")
+        if parametro:
+            return True
         else:
-            print("adios")
+            return False
