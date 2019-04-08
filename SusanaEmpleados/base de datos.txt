@@ -1,0 +1,8 @@
+create table datos(
+IdUser int auto_increment not null,
+Nombre varchar(30),
+Apellido varchar(30),
+Ciudad varchar(30),
+telefono int,
+Puesto varchar(30),
+primary key (IdUser));
